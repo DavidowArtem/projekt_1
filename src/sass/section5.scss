@@ -1,0 +1,96 @@
+.war{
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.about__up--img,.about__up--{
+    margin: 10px;
+}
+
+
+.about__up--{
+    font-family: fantasy;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.warrper__text-{
+    
+    width: 280px;
+    height: 250px;
+    margin: 20px;
+}
+
+.warrper__text--f{
+    font-size: 25pt;
+    color: rgba(39, 39, 39, 255);
+    margin: 35px 20px;
+    position: relative;
+    top: 20px;
+}
+
+.warrper__tex p{
+    margin: 0;
+}
+
+.warrper__tex{
+    margin: 30px;
+    font-size: 16pt;
+    color: rgba(70, 70, 70, 255);
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+.warrper__text-{
+    background: url(../images/e.png);
+    width: 280px;
+    height: 250px;
+    margin: 20px;
+}
+
+
+.warrper__text--t{
+    background: url(../images/ten.png);
+    width: 280px;
+    height: 250px;
+    margin: 20px;
+}
+
+.warrper__text--{
+    background: url(../images/next-one.png);
+    width: 280px;
+    height: 250px;
+    margin: 20px;
+}
+
+.all__{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .warrper__one--{
+        display: flex;
+        flex-direction: row;
+
+    }
+    .warrper__two--{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1300px){
+    .all__{
+        display: flex;
+        flex-direction: row; 
+    }
+}
